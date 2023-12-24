@@ -1,0 +1,49 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.footer__logo {
+  /* margin-right: 35px; */
+}
+
+.navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.navigation__link {
+  color: #595959;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end; */
+  gap: 21px;
+  margin-left: auto;
+}
+
+.footer__social-link {
+  display: block;
+  line-height: 0;
+}
+
+.instagram,
+.facebook {
+  width: 25px;
+  height: 25px;
+}
+
+.vkontakte {
+  width: 35px;
+  height: 20px;
+}
